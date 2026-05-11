@@ -1,4 +1,4 @@
-import{r as i,g as a,G as n,a as e,i as o}from"./index.esm-CjoBAJsH.js";var r="firebase",t="12.13.0";/**
+import{r,g as o,G as s,a,i}from"./index.esm-CjoBAJsH.js";var n="firebase",p="12.13.0";/**
  * @license
  * Copyright 2020 Google LLC
  *
@@ -13,4 +13,4 @@ import{r as i,g as a,G as n,a as e,i as o}from"./index.esm-CjoBAJsH.js";var r="f
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */i(r,t,"app");const s={apiKey:void 0,authDomain:void 0,projectId:void 0},p=e().length?e()[0]:o(s),g=a(p),f=new n;export{g as auth,f as googleProvider};
+ */r(n,p,"app");const e={apiKey:"",authDomain:"",projectId:"",storageBucket:"",messagingSenderId:"",appId:"",measurementId:""},m=!!e.apiKey&&!!e.authDomain&&!!e.projectId,g=a().length?a()[0]:i(e),u=o(g),d=(()=>{const t=new s;return t.setCustomParameters({prompt:"select_account"}),t})();export{u as auth,d as googleProvider,m as isFirebaseConfigured};

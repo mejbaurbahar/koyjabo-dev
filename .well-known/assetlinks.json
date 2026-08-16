@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.koyjabo.app",
+    "sha256_cert_fingerprints": [
+      "FC:5A:45:E4:E8:C6:CA:3B:ED:FB:A2:85:41:9A:7C:79:23:D3:DF:9A:0A:95:A2:F2:7F:91:E4:CB:8A:59:FD:1E"
+    ]
+  }
+}]

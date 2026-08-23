@@ -1,0 +1,1 @@
+const i=(t,a)=>{const M=t.lat*Math.PI/180,c=a.lat*Math.PI/180,s=(a.lat-t.lat)*Math.PI/180,n=(a.lng-t.lng)*Math.PI/180,h=Math.sin(s/2)*Math.sin(s/2)+Math.cos(M)*Math.cos(c)*Math.sin(n/2)*Math.sin(n/2);return 6371e3*(2*Math.atan2(Math.sqrt(h),Math.sqrt(1-h)))};export{i as g};
